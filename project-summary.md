@@ -10,9 +10,9 @@
 ## Dependencies
 
 ### @capacitor
-- **android@6.0.0-nightly-20231222T150454.0** - (Latest 5.6.0)
-- **cli@6.0.0-nightly-20231222T150454.0** - (Latest 5.6.0)
-- **core@6.0.0-nightly-20231222T150454.0** - (Latest 5.6.0)
+- **android@5.6.0**
+- **cli@5.6.0**
+- **core@5.6.0**
 ### @vitejs
 - **plugin-vue@4.5.2**
 ### Other Dependencies
