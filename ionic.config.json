@@ -1,0 +1,7 @@
+{
+  "name": "vue-android",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

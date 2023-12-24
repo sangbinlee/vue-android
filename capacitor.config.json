@@ -1,0 +1,8 @@
+{
+  "appId": "vue.android",
+  "appName": "vue-android",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
