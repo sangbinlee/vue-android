@@ -1,13 +1,22 @@
 <template>
   <div class="left">
-    <table>
-      <tr><th>no</th> <th>text</th> <th>done</th> <th>삭제</th></tr>
-      <tr v-for="(todo, id) in todoStore.filteredTodo" :key="id">
-        <td>{{ todo.id }}</td>
-        <td>{{ todo.text }}</td>
-        <td><input type="checkbox" v-model="todo.isDone" /></td>
-        <td><button @click="todoStore.deleteTodo(todo.id)">삭제</button></td>
-      </tr>
+    <table class="table table-bordered table-sm">
+      <thead>
+        <tr>
+          <th>no</th> 
+          <th>text</th> 
+          <th>done</th> 
+          <th>삭제</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(todo, id) in todoStore.filteredTodo" :key="id">
+          <td>{{ todo.id }}</td>
+          <td>{{ todo.text }}</td>
+          <td><input type="checkbox" v-model="todo.isDone" /></td>
+          <td><button @click="todoStore.deleteTodo(todo.id)">삭제</button></td>
+        </tr>
+      </tbody>
     </table>
   </div>
 
