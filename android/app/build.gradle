@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace "vue.android"
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "vue.android"
         minSdkVersion rootProject.ext.minSdkVersion
