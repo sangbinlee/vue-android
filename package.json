@@ -11,18 +11,18 @@
     "ionic:serve": "npm run dev"
   },
   "dependencies": {
-    "@capacitor/android": "next",
-    "@capacitor/app": "next",
-    "@capacitor/core": "next",
-    "@capacitor/haptics": "next",
-    "@capacitor/keyboard": "next",
-    "@capacitor/status-bar": "next",
+    "@capacitor/android": "6.0.0-nightly-20231222T150454.0",
+    "@capacitor/app": "6.0.0-nightly-20231222T150450.0",
+    "@capacitor/core": "6.0.0-nightly-20231222T150454.0",
+    "@capacitor/haptics": "6.0.0-nightly-20231222T150450.0",
+    "@capacitor/keyboard": "6.0.0-nightly-20231222T150450.0",
+    "@capacitor/status-bar": "6.0.0-nightly-20231222T150450.0",
     "pinia": "^2.1.7",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@capacitor/cli": "next",
+    "@capacitor/cli": "6.0.0-nightly-20231222T150454.0",
     "@vitejs/plugin-vue": "^4.5.2",
     "vite": "^5.0.10"
   },
